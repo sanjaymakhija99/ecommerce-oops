@@ -68,7 +68,7 @@ class PercentageDiscount implements DiscountStrategy {
  */
 class LoyaltyPointsDiscount implements DiscountStrategy {
     private int pointsToRedeem;
-    private static final double POINTS_TO_RUPEE_RATIO = 0.25; // 1 point = ₹0.25
+    private static final double POINTS_TO_RUPEE_RATIO = 0.35; // 1 point = ₹0.25
 
     public LoyaltyPointsDiscount(int pointsToRedeem) {
         this.pointsToRedeem = pointsToRedeem;
